@@ -1,0 +1,71 @@
+{
+    "name": "GameActions",
+    "maps": [
+        {
+            "name": "Mouse",
+            "id": "b4b052c5-8ea0-45a1-8840-7c61cb784dde",
+            "actions": [
+                {
+                    "name": "MouseMove",
+                    "type": "Value",
+                    "id": "d328bc39-0cc2-49e4-8151-931984f08db3",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "MouseLeftClick",
+                    "type": "Button",
+                    "id": "fad9a5d7-d2a9-4022-9520-5072fbea9216",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                },
+                {
+                    "name": "MouseRightClick",
+                    "type": "Button",
+                    "id": "83125a39-4c24-45ab-9393-a1129b6ac300",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=1)"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b0359f3f-22b4-483a-b7d2-fba8ec39f110",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseMove",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "19529069-6d6a-4882-9c71-ca9a86fd0227",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseLeftClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "335e1dd5-5fb9-4d45-9012-adf45bee2d0c",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MouseRightClick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
